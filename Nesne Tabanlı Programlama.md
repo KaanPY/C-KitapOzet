@@ -78,4 +78,8 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
 
 ###### UYGULAMA-1
 
- Forma eklenen, TextBox ve Button nesnelerinden; textBox içerisine yazılan yazının button'a basıldığında label'a yazan programı yazınız.
+ Form'a eklenen, TextBox ve Button nesnelerinden; textBox içerisine yazılan yazının button'a basıldığında label'a yazan programı yazınız.
+ 
+ ![a](https://user-images.githubusercontent.com/77877967/133820308-312e2f35-67fb-41a4-bb9c-b1a7d7e0d0c4.jpg)
+
+ 
