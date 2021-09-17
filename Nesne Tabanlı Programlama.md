@@ -24,3 +24,18 @@
   - *Dinamik kütüphaneler(DLL).*
   - *Oyun tasarımı.*
   - *Form uygulamaları.*
+
+- **C#  Programlama Dilinin Tercih Edilmesinin Sebepleri?**
+
+  - *Yazılması ve anlaşılması kolay kod yapısına sahip sahiptir.*
+  - *Kullanışlıdır.*
+  - *Ekip çalışmasına elverişlidir.*
+  - *Kullanıcıyla etkilişimlidir.*
+  - *Grafik arayüzlü tasarımlar yapılabilir.*
+  - *Ağ üzerinden birbiriyle uyumlu çalışabilir.*
+  - Çevrimiçi veya çevrimdışı kullanılabilir.*
+  - *QR kod okuyucu, kamera, yazıcı vb. cihazlarla etkileşimlidir.*
+  - *Verileri depolayıp işleyerek analiz yapabilir.*
+  - *Sosyal medya platformları ile etkileşimlidir.*
+  - *Cep telefonu uygulamaları ile etkileşimlidir.*
+  - *Yapay zeka teknolojisi kullnarak yüz tanıma, nesne tanıma, ses tanıma işlemleri yapılabilir.*
