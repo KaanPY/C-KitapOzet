@@ -119,3 +119,13 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   > **MenuStrip**: Programda menü başlıkları ve alt başlıklar oluşturmak için kullanılan nesnedir.
 
   > **PictureBox**: Form üzerinde resim göstermek için kullanılan nesnedir.
+
+  > **ProgressBar**: Yapılan bir işlemin ne kadarının tamamlandığını göstermek için kullanılan nesnedir.
+
+  > **RadioButton**: CheckBox nesnesinden farklı olarak birçok seçenek içinde sadece birinin seçilmesine imkan sağlayan nesnedir.
+
+  > **RichTextBox**: Birden çok satır içine metin girişi yapılabilen nesnedir.
+
+  > **TabControl**: Form elemanlarının gruplara ayrıldığı, grupların içindeki elemanları görmek için sekmelerin kullandığı nesnedir. Her sekme, bir grubu temsil eder.
+
+  > **Timer**: Kodların zamanlanarak çalışmasını sağlayan nesnedir.
