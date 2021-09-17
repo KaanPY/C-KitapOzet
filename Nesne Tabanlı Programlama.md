@@ -172,3 +172,19 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
 
   > **MouseDown**: Farenin tuşuna basılması olaydır.
   
+###### UYGULAMA-2
+
+ *Form'a eklenen, Button nesnesinden; button'a basıldığında pop-up gösteren programı yazınız.*
+ 
+ 1. **Form:**
+ 
+ ![unnamed](https://user-images.githubusercontent.com/77877967/133833258-47e602f9-28a1-4edf-a155-8125ae577fe4.png)
+
+ 2. **Kod:**
+ 
+ ```C#
+ private void button1_Click(object sender, EventArgs e)
+ {
+   MessageBox.Show("Merhaba Dünya", "Başlık", MessageBoxButtons.YesNoCancel);
+ }
+ ```
