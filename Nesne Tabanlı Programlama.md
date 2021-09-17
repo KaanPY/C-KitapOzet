@@ -82,7 +82,7 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
  
  1. **Form:**
  
- ![133833258-47e602f9-28a1-4edf-a155-8125ae577fe4](https://user-images.githubusercontent.com/77877967/133835646-422f8dc7-b996-41d3-8893-9b413f0c8ebb.png)
+ ![133820308-312e2f35-67fb-41a4-bb9c-b1a7d7e0d0c4](https://user-images.githubusercontent.com/77877967/133822653-a4b799f9-85dd-40f3-ae67-358e99d511a4.png)
 
  2. **Kod:**
  
