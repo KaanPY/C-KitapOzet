@@ -178,7 +178,7 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
  
  1. **Form:**
  
- ![unnamed](https://user-images.githubusercontent.com/77877967/133833258-47e602f9-28a1-4edf-a155-8125ae577fe4.png)
+ ![133833258-47e602f9-28a1-4edf-a155-8125ae577fe4](https://user-images.githubusercontent.com/77877967/133835756-b7d7a716-1332-4174-8f3a-13b745bd2884.png)
 
  2. **Kod:**
  
