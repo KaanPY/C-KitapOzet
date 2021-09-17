@@ -93,3 +93,29 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
  }
  ```
 - **Form Ekranı**
+
+  Form ekranı, programın görsel tasarımının yapıldığı yerdir.
+  
+- **Araç Kutusu(ToolBox)**
+
+  Form üzerinde tasarım için kullanılabilecek nesnelerin olduğu yer. En çok tercih edilen ToolBox nesneleri.
+  
+  > **Button**: Programda bazı kodları çalıştırmak için kullanılan komut düğmeleridir. Button nesnesine tıklandığında içeri doğru basma efekti gerçekleştiği için tıklama(click) olayları için vazgeçilmez nesnedir.
+
+  > **Label**: Form üzerinde bilgi vermek için kullanılan nesnedir.
+
+  > **TextBox**: İçinde tek satır metin girişi yapılabilen nesnedir. Bilgi girişi için en çok tercih edilen nesnedir.
+
+  > **CheckBox**: Kullanıcıya bir veya aynı anda birden çok seçeneği işaretleme imkanı sağlayan nesnedir.
+
+  > **ComboBox**: Açılır liste ile açılan seçenekler arasında seçim yapılmasını olanak sağlayan araçtır. Listeye yeni eleman ekleme ve çıkarma işlemleri, tasarım ekranında veya program çalışırken kod ile yapılabilir.
+
+  > **DateTimePicker**: Tarih ve saat seçme işlemlerine olanak sağlayan nesnedir.
+
+  > **GroupBox**: Form elemanlarını kendi aralarında gruplamak için kullanılan nesnedir. Nesneler gruplar halinde olduğu için daha anlaşılır tasarımlar yapılabilir.
+
+  > **ListBox**: Sunulacak seçeneklerin açık bir liste halinde gösterildiği nesnedir.
+
+  > **MenuStrip**: Programda menü başlıkları ve alt başlıklar oluşturmak için kullanılan nesnedir.
+
+  > **PictureBox**: Form üzerinde resim göstermek için kullanılan nesnedir.
