@@ -200,3 +200,10 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   
   1. Form ekranı üzerinde herhangi bir noktada fare sağ tuşu kullanarak açılan listede **view code**(kodu göster) tıklanarak kod ekranı, **view designer**(tasarım göster) tıklanarak tasarım ekranı görüntülenir.
   2. Klavyeden **F7** tuşuna basıldığında kod ekranı açılır. klavyede **shift+F7** tuşuna basıldığında tasarım ekranı açılır.
+
+# HATA LİSTESİ(ERROR LİST) PANELİ
+
+  Kod yazarken, kod derlenirken veya kod çalışırken oluşan hataların ve uyarıların listelendiği paneldir.
+  
+  a) **Erros(Hatalar) Bölümü**: Çok kritik ve programın çalışmasını engelleyen hatalardır. Örneğin; değişkeni tanımlamadan bir kod bloku içinde kullanmak, kod satırının sonunda noktalı virgül koymamak vb.
+  b) **Warnings(Uyarılar) Bölümü**: Programın çalışmasını engellemeyecek düzeydeki iletilerdir. Örneğin; değişkenin tanımlanıp hiçbir zaman kullanılmaması vb.
