@@ -39,3 +39,16 @@
   - *Sosyal medya platformları ile etkileşimlidir.*
   - *Cep telefonu uygulamaları ile etkileşimlidir.*
   - *Yapay zeka teknolojisi kullnarak yüz tanıma, nesne tanıma, ses tanıma işlemleri yapılabilir.*
+  - *Birçok özelliğe sahip farklı programları geliştirebilme imkanı sağlar.*
+
+- **.NET Framework(Geliştirme Çatısı) Nedir?
+
+  Programlama dillerinden bağımsız ve farklı programlama dilleri ile ortak çalışma imkanı sağlayan bir uygulama geliştirme platformudur.
+  
+  Bu platform ile farklı dilleri bilen programcılar ortak bir projeyi yürütebilir.
+  
+  Ayrıca .NET Framework altyapısında kullanıma sunulmuş hazır kod kütüphaneleri ile kod yazma çok daha hızlı ve verimli olmaktadır.
+  
+- **C# Ve .NET Framework İlişkisi**
+
+  - C# bir programlama dilidir. .NET Framework ise C# dili ve birçok dilin kütüphanelerinin yüklü olduğu bir uygulama geliştirme platformudur. C# dilinde kullanılan kütüphanelerin tümü .NET Framework kütüphaneleridir.
