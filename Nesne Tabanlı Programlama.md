@@ -69,9 +69,9 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
 - **Sık Kullandığımız Paneller**
 
   > Toolbox: Kullanılacak nesnelerin olduğu yer.
-  > 
+   
   > Solution Explorer: Proje dosyalarının olduğu yer.
-  > 
+   
   > Properties: Seçilen nesnenin özelliklerinin olduğu yer.
 
   Not: Ana ekranda istenilen paneller yoksa **__view__** menüsünden seçilir.
