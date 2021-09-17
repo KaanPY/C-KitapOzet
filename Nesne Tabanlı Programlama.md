@@ -77,3 +77,5 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   *Not: Ana ekranda istenilen paneller yoksa **__view__** menüsünden seçilir.*
 
 ###### UYGULAMA-1
+
+ Forma eklenen, TextBox ve Button nesnelerinden; textBox içerisine yazılan yazının button'a basıldığında label'a yazan programı yazınız.
