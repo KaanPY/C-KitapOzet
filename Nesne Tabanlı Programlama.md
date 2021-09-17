@@ -52,4 +52,4 @@
 - **C# Ve .NET Framework İlişkisi**
 
   C# bir programlama dilidir. .NET Framework ise C# dili ve birçok dilin kütüphanelerinin yüklü olduğu bir uygulama geliştirme platformudur. C# dilinde kullanılan kütüphanelerin
-  tümü .NET Framework kütüphaneleridir.
+tümü .NET Framework kütüphaneleridir.
