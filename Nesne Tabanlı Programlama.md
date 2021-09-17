@@ -1,4 +1,4 @@
 # Nesne Tabanlı Programlama Çalışma Ortamı
 
 - Program Nedir?
--- Program, herhangi bir elektronik
+ Program, herhangi bir elektronik
