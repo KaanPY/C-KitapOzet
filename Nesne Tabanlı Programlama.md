@@ -59,4 +59,8 @@
   Programlama dilleri ile yazılan kodlar makine için anlamlı değildir, kodların makine dilinde yazılması veya makine diline çevrilmesi gerekir. Program yazarken kullanılan 
   kodlar derlendiğinde doğrudan makine diline çevrilmez.
   
-  Kodlar önce **ara dil**(Intermediate Language) koduna, ardından da **çalışma dil derleyicisine**(Just-In-Time Compiler) tarafından makine diline çevrilir. Böylelikle kodlar sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework altyapısı sağlar.
+  Kodlar önce **ara dil**(Intermediate Language) koduna, ardından da **çalışma dil derleyicisine**(Just-In-Time Compiler) tarafından makine diline çevrilir. Böylelikle kodlar
+sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework altyapısı sağlar.
+  
+  ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/133805567-5e8c2ebb-c886-4499-96b9-93663d8a99cd.PNG)
+
