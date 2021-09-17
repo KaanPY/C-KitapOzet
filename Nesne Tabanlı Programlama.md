@@ -188,3 +188,15 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
    MessageBox.Show("Merhaba Dünya", "Başlık", MessageBoxButtons.YesNoCancel);
  }
  ```
+# ÇÖZÜM PENCERESİ(SOLUTİON EXPLORER) PANELİ
+
+  Proje ile ilgili tüm dosya ve klasörlerin listelenerek silme, kopylama, taşıma, isim değiştirme işlemlerinin yapıldığı paneldir.
+  
+  Projenin detaylı bir haritsaı gibi düşünülebilir. Çözüm penceresi ile projeye yeni sınıf(class), form ve başka öğeler eklenebilir. Veri tabanı dosyası, resim, müzik, video dosyaları projeye dahil edilebilir.
+  
+  Projeye eklenen her form, çözüm penceresinde ayrı ayrı listelenmektedir. Formlar kod ve tasarım olarak farklı dosyalarda oluşur.
+  
+  Kod veya tasarım ekranını göstermenin yolları şunlardır;
+  
+  1. Form ekranı üzerinde herhangi bir noktada fare sağ tuşu kullanarak açılan listede **view code**(kodu göster) tıklanarak kod ekranı, **view designer**(tasarım göster) tıklanarak tasarım ekranı görüntülenir.
+  2. Klavyeden **F7** tuşuna basıldığında kod ekranı açılır. klavyede **shift+F7** tuşuna basıldığında tasarım ekranı açılır.
