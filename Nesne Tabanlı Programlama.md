@@ -62,5 +62,6 @@
   Kodlar önce **ara dil**(Intermediate Language) koduna, ardından da **çalışma dil derleyicisine**(Just-In-Time Compiler) tarafından makine diline çevrilir. Böylelikle kodlar
 sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework altyapısı sağlar.
   
-  ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/133805567-5e8c2ebb-c886-4499-96b9-93663d8a99cd.PNG)
+  ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/133805822-d86f38ab-b919-4d7c-aa61-f29db4d1715a.PNG)
+
 
