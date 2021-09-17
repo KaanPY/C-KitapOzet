@@ -206,4 +206,5 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   Kod yazarken, kod derlenirken veya kod çalışırken oluşan hataların ve uyarıların listelendiği paneldir.
   
   a) **Erros(Hatalar) Bölümü**: Çok kritik ve programın çalışmasını engelleyen hatalardır. Örneğin; değişkeni tanımlamadan bir kod bloku içinde kullanmak, kod satırının sonunda noktalı virgül koymamak vb.
+  
   b) **Warnings(Uyarılar) Bölümü**: Programın çalışmasını engellemeyecek düzeydeki iletilerdir. Örneğin; değişkenin tanımlanıp hiçbir zaman kullanılmaması vb.
