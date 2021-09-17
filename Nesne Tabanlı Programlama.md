@@ -64,7 +64,7 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   
   ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/133806086-7b888082-b451-4e7d-9b75-34cdf51d4d1f.PNG)
 
-# VİSUAL STUDIO WINDOWS FORM APP
+# VISUAL STUDIO WINDOWS FORM APP
 
 - **Sık Kullandığımız Paneller**
 
@@ -153,3 +153,22 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   > **TextAlign**: Nesnenin yazısınız hizalar.
 
 # OLAYLAR(EVENTS) PANELİ
+
+  Her nesnenin form üzerinde bir görevi bulunmaktadır. Bazı nesneler sadece programın işlevi ile ilgili bilgiye ve görseli yansıtmak için kullanılır. Bazı nesneler ise belli
+  durumlarda(üzerine tıklandığında, bir tuşa basıldığında vs.) kod parçacıklarını çalıştırmak için kullanılır. Nesneler, kullanıcı ile etkileşimli olaylar sayesinde
+  sağlamaktadır.
+  
+  Örneğin; butona tıklandığında şifre kontrolünün yapılması, klavyeden sağ ok tuşuna basıldığında bir sonraki resmin gösterilmesi, PictureBox nesnesinin üzerine çift tıklama yapıldığında resme ait ilgili bilgilerin MessageBox ile göstermesi vb.
+  
+  Örneğin button1 nesnesine ait sık kullanılan bazı olaylar(diğer nesnelerde de genelde ortak olaylar) ve anlamları aşağıda verilmiştir.
+  
+  > **Click**: Nesneye fare ile tıklanması veya fare nesne üzerindeyken enter tuşuna basılmasıyla devreye giren olaydır.
+
+  > **MouseClick**: Click gibi nesnenin fare ile tıklanması olaydır. Fakat MouseClick, fareye ait koordinatlar gibi özel bilgileri de verir.
+
+  > **KeyDown**: Klavyeden bir tuşa basılması olaydır.
+
+  > **KeyUp**: Klavyede basılan tuşun bırakılması olaydır.
+
+  > **MouseDown**: Farenin tuşuna basılması olaydır.
+  
