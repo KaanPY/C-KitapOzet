@@ -92,3 +92,4 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
    label1.Text = textBox1.Text;
  }
  ```
+- **Form Ekranı**
