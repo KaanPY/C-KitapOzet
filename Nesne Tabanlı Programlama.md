@@ -129,3 +129,27 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   > **TabControl**: Form elemanlarının gruplara ayrıldığı, grupların içindeki elemanları görmek için sekmelerin kullandığı nesnedir. Her sekme, bir grubu temsil eder.
 
   > **Timer**: Kodların zamanlanarak çalışmasını sağlayan nesnedir.
+
+# ÖZELLİKLER(PROPERTİES) PANELİ
+
+  Form nesnenin ve diğer tüm nesnelerin özelliklerinin listelendiği, değiştirildiği ve ayrıca nesnelere ait olayların(events) listelendiği paneldir.
+  
+  Her nesnenin kendine ait benzersiz özellikleri olduğu gibi diğer nesneler ile ortak özellikleri de  bulunmaktadır.
+  
+  Tüm nesnelerin en temel ortak özelliği, isim(name) özelliğidir.
+  
+  Örneğin button1 nesnesine ait sık kullanılan bazı özellikler(diğer nesnelerde de genelde ortak özellikler) ve anlamları aşağıda verilmiştir.
+  
+  > **BackColor**: Nesnenin arka plan rengini değiştirir.
+
+  > **BackgroundImage**: Nesnenin arka planına resim ekler.
+
+  > **Font**: Nesnenin yazı tipini, boyutunu ve kalınlığını değiştirir.
+
+  > **ForeColor**: Nesnenin yazı rengini değiştirir.
+
+  > **Text**: Nesnenin yazı metinini değiştirir.
+
+  > **TextAlign**: Nesnenin yazısınız hizalar.
+
+# OLAYLAR(EVENTS) PANELİ
