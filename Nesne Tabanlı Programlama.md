@@ -80,11 +80,11 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
 
  *Form'a eklenen, TextBox ve Button nesnelerinden; textBox içerisine yazılan yazının button'a basıldığında label'a yazan programı yazınız.*
  
- 1. **Form:**
+ 1.**Form:**
  
  ![133820308-312e2f35-67fb-41a4-bb9c-b1a7d7e0d0c4](https://user-images.githubusercontent.com/77877967/133822653-a4b799f9-85dd-40f3-ae67-358e99d511a4.png)
 
- 2. **Kod:**
+ 2.**Kod:**
  
  ```C#
  private void button1_Click(object sender, EventArgs e)
