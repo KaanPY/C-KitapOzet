@@ -174,20 +174,20 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   
 ###### UYGULAMA-2
 
- *Form'a eklenen, Button nesnesinden; button'a basıldığında pop-up gösteren programı yazınız.*
+  *Form'a eklenen, Button nesnesinden; button'a basıldığında pop-up gösteren programı yazınız.*
  
- 1.**Form:**
+  1.**Form:**
  
- ![133833258-47e602f9-28a1-4edf-a155-8125ae577fe4](https://user-images.githubusercontent.com/77877967/133835756-b7d7a716-1332-4174-8f3a-13b745bd2884.png)
+  ![133833258-47e602f9-28a1-4edf-a155-8125ae577fe4](https://user-images.githubusercontent.com/77877967/133835756-b7d7a716-1332-4174-8f3a-13b745bd2884.png)
 
- 2.**Kod:**
+  2.**Kod:**
  
- ```C#
- private void button1_Click(object sender, EventArgs e)
- {
-   MessageBox.Show("Merhaba Dünya", "Başlık", MessageBoxButtons.YesNoCancel);
- }
- ```
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    MessageBox.Show("Merhaba Dünya", "Başlık", MessageBoxButtons.YesNoCancel);
+  }
+  ```
 # ÇÖZÜM PENCERESİ(SOLUTİON EXPLORER) PANELİ
 
   Proje ile ilgili tüm dosya ve klasörlerin listelenerek silme, kopylama, taşıma, isim değiştirme işlemlerinin yapıldığı paneldir.
@@ -211,18 +211,18 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   
 ###### UYGULAMA-3
 
- 1.**Form:**
+  1.**Form:**
  
- ![133833258-47e602f9-28a1-4edf-a155-8125ae577fe4](https://user-images.githubusercontent.com/77877967/133835756-b7d7a716-1332-4174-8f3a-13b745bd2884.png)
+  ![133833258-47e602f9-28a1-4edf-a155-8125ae577fe4](https://user-images.githubusercontent.com/77877967/133835756-b7d7a716-1332-4174-8f3a-13b745bd2884.png)
 
- 2.**Kod:**
+  2.**Kod:**
  
- ```C#
- private void button1_Click(object sender, EventArgs e)
- {
-   MessageBox.Show("Merhaba Dünya");
- }
- ```
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    MessageBox.Show("Merhaba Dünya");
+  }
+  ```
 
 - **MessageBox Komutu**
 
@@ -252,4 +252,35 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   {
     MessageBox.Show("Mesaj Metni", "Mesaj Başlığı", MessageBoxButtons.OkCancel);
   }
+  ```
+
+###### UYGULAMA-4
+
+  *Butona basıldığında Text alanına yazı yazan program.*
+  
+  1.**Form:**
+ 
+  ![a](https://user-images.githubusercontent.com/77877967/134396042-14f2b6c1-a5fc-45ee-843c-c0106150ec34.jpg)
+
+  2.**Kod:**
+ 
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    textBox1.Text = "merhaba kaan";
+  }
+  ```
+  
+  Kod parçasına bakılırsa nesnenin bir özelliğine kod ile müdahale edildiği görülür. Nesnelerin özellikleri sadece **Properties** panelinden değiştirilmez.
+  
+  Programın çalışma zamanında kodla da değiştirilebilir. Örnek kodlar aşağıda verilmiştir.
+  
+  ```C#
+   textBox1.ForeColor = Color.Green; // Yazı rengini yeşil yapar.
+   
+   textBox1.Enabled = false; // Nesneyi pasifleştirir. Artık metin girişi yapılmaz.
+   
+   textBox1.Visible = false; // Nesneyi görünmez hale getirir.
+   
+   textBox1.Font = new font("Broadway",16); // Yazı tipini ve boyutunu değiştirir.
   ```
