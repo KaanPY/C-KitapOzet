@@ -176,11 +176,11 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
 
  *Form'a eklenen, Button nesnesinden; button'a basıldığında pop-up gösteren programı yazınız.*
  
- 1. **Form:**
+ 1.**Form:**
  
  ![133833258-47e602f9-28a1-4edf-a155-8125ae577fe4](https://user-images.githubusercontent.com/77877967/133835756-b7d7a716-1332-4174-8f3a-13b745bd2884.png)
 
- 2. **Kod:**
+ 2.**Kod:**
  
  ```C#
  private void button1_Click(object sender, EventArgs e)
