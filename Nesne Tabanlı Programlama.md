@@ -282,5 +282,5 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
    
    textBox1.Visible = false; // Nesneyi görünmez hale getirir.
    
-   textBox1.Font = new font("Broadway",16); // Yazı tipini ve boyutunu değiştirir.
+   textBox1.Font = new Font("Broadway",16); // Yazı tipini ve boyutunu değiştirir.
   ```
