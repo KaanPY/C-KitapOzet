@@ -208,3 +208,6 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   a) **Erros(Hatalar) Bölümü**: Çok kritik ve programın çalışmasını engelleyen hatalardır. Örneğin; değişkeni tanımlamadan bir kod bloku içinde kullanmak, kod satırının sonunda noktalı virgül koymamak vb.
   
   b) **Warnings(Uyarılar) Bölümü**: Programın çalışmasını engellemeyecek düzeydeki iletilerdir. Örneğin; değişkenin tanımlanıp hiçbir zaman kullanılmaması vb.
+  
+###### UYGULAMA-3
+
