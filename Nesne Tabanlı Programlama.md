@@ -302,3 +302,30 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
     listBox1.Items.Add(textBox1.Text);
  }
   ```
+
+###### UYGULAMA-6
+  
+  1.**Form:**
+ 
+  ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/134576867-1b343e4c-02f0-49a4-8c66-8bd77f15bcf5.PNG)
+
+  2.**Kod:**
+ 
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    this.BackColor = Color.Red; 
+  }
+  private void button2_Click(object sender, EventArgs e)
+  {
+    this.BackColor = Color.Green; 
+  }
+  private void button3_Click(object sender, EventArgs e)
+  {
+    this.BackColor = Color.Blue; 
+  }
+  private void button4_Click(object sender, EventArgs e)
+  {
+    this.BackColor = Color.Gray; 
+  }
+  ```
