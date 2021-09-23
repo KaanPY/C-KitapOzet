@@ -284,3 +284,21 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
    
    textBox1.Font = new Font("Broadway",16); // Yazı tipini ve boyutunu değiştirir.
   ```
+
+###### UYGULAMA-5
+
+  *Sepete Ekle butonuna tıklandığında TextBox nesnesindeki değeri ListBox nesnesine aktaran Görsel
+1.23’teki gibi bir tasarıma sahip programı yazınız.*
+  
+  1.**Form:**
+ 
+  ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/134575804-7b520ab5-67b6-459f-804b-418d37510be8.PNG)
+
+  2.**Kod:**
+ 
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+ {
+   listBox1.Items.Add(textBox1.Text);
+ }
+  ```
