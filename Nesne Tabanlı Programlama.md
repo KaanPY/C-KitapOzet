@@ -329,3 +329,36 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
     this.BackColor = Color.Gray; 
   }
   ```
+
+###### UYGULAMA-7
+  
+  *Adım-1: Form üzerine Görsel 1.25’te görüldüğü gibi dört tane PictureBox nesnesini üst üste olacak şekilde yerleştiriniz.*
+  
+  *Adım-2: PictureBox nesnelerinin “Visible” özelliğini “false” yapınız (Visible özelliği ile nesnenin görünürlüğü belirlenir.).*
+  
+  *Adım-3: Dört tane RadioButton nesnesi ekleyiniz ve bunları numaralandırınız.*
+  
+  1.**Form:**
+ 
+  ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/134577370-d2fae962-3f02-4733-8f54-12de9a6217b0.PNG)
+
+  2.**Kod:**
+ 
+  ```C#
+  private void radioButton1_CheckedChanged(object sender, EventArgs e)
+  {
+    pictureBox1.Visible = radioButton1.Checked; 
+  }
+  private void radioButton2_CheckedChanged(object sender, EventArgs e)
+  {
+    pictureBox2.Visible = radioButton2.Checked; 
+  }
+  private void radioButton3_CheckedChanged(object sender, EventArgs e)
+  {
+    pictureBox3.Visible = radioButton3.Checked; 
+  }
+  private void radioButton4_CheckedChanged(object sender, EventArgs e)
+  {
+    pictureBox4.Visible = radioButton4.Checked; 
+  }
+  ```
