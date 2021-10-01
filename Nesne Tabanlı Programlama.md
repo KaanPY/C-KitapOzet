@@ -383,3 +383,17 @@ oluşturulan isim uzayları da kullanılabilir.
    }
   }
   ```
+  
+# Değişkenler ve Temel Veri Türleri
+
+  Değişkenler, programlamanın en temel kavramıdır. Program çalışması sırasında çeşitli türlerde verileri hafızada saklayan değişkenler, ihtiyaca göre tekrar tekrar kullanılan veri tutuculardır.
+
+  Program çalıştığı sürece değişkenler RAM bellekte bulunur, program durdurulduğunda RAM bellekten silinir.
+  
+  Değişkenlerin içine aktarılacak verilerin türleri çeşitlilik gösterebilir. Her veri türünün RAM bellekte kapladığı alan ve değişkenin türüne göre verinin değer aralığı farklıdır.
+  
+  Değişkenler, RAM bellekte yer kaplar ve programda kullanılan değişken sayısı arttıkça bu durum RAM belleğin kullanılabilir hafıza kapasitesini düşürür
+  
+### Tam Sayı Veri Türleri
+  
+  ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/135674605-3056026d-f981-468f-b134-193d2f2f879c.PNG)
