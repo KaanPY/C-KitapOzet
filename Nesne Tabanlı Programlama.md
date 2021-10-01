@@ -376,10 +376,10 @@ oluşturulan isim uzayları da kullanılabilir.
   Programda kişisel bir isim uzayı tanımlanarak kodların organize olması sağlanabilir. Veri tabanına kayıt yapma işlemlerini içeren bir sınıf örneği;
   
   ```C#
-   namespace VeriTabani {     // Kaydet sınıfını kullanabilmek için programa using ifadesi ile isim uzayı eklenmelidir.
-   public class Kaydet
-    {
-      //kodlarınız
-    }
+  namespace VeriTabani {  // Kaydet sınıfını kullanabilmek için programa using ifadesi ile isim uzayı eklenmelidir.
+  public class Kaydet
+   {
+     //kodlarınız
    }
+  }
   ```
