@@ -80,11 +80,11 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
 
  *Form'a eklenen, TextBox ve Button nesnelerinden; textBox içerisine yazılan yazının button'a basıldığında label'a yazan programı yazınız.*
  
- 1.**Form:**
+ **_Form:_**
  
  ![133820308-312e2f35-67fb-41a4-bb9c-b1a7d7e0d0c4](https://user-images.githubusercontent.com/77877967/133822653-a4b799f9-85dd-40f3-ae67-358e99d511a4.png)
 
- 2.**Kod:**
+ **_Kod:_**
  
  ```C#
  private void button1_Click(object sender, EventArgs e)
@@ -176,11 +176,11 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
 
   *Form'a eklenen, Button nesnesinden; button'a basıldığında pop-up gösteren programı yazınız.*
  
-  1.**Form:**
+  **_Form:_**
  
   ![133833258-47e602f9-28a1-4edf-a155-8125ae577fe4](https://user-images.githubusercontent.com/77877967/133835756-b7d7a716-1332-4174-8f3a-13b745bd2884.png)
 
-  2.**Kod:**
+  **_Kod:_**
  
   ```C#
   private void button1_Click(object sender, EventArgs e)
@@ -211,11 +211,11 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   
 ###### UYGULAMA-3
 
-  1.**Form:**
+  **_Form:_**
  
   ![133833258-47e602f9-28a1-4edf-a155-8125ae577fe4](https://user-images.githubusercontent.com/77877967/133835756-b7d7a716-1332-4174-8f3a-13b745bd2884.png)
 
-  2.**Kod:**
+  **_Kod:_**
  
   ```C#
   private void button1_Click(object sender, EventArgs e)
@@ -305,11 +305,11 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
 
 ###### UYGULAMA-6
   
-  1.**Form:**
+  **_Form:_**
  
   ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/134576867-1b343e4c-02f0-49a4-8c66-8bd77f15bcf5.PNG)
 
-  2.**Kod:**
+  **_Kod:_**
  
   ```C#
   private void button1_Click(object sender, EventArgs e)
@@ -338,11 +338,11 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   
   *Adım-3: Dört tane RadioButton nesnesi ekleyiniz ve bunları numaralandırınız.*
   
-  1.**Form:**
+  **_Form:_**
  
   ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/134577370-d2fae962-3f02-4733-8f54-12de9a6217b0.PNG)
 
-  2.**Kod:**
+  **_Kod:_**
  
   ```C#
   private void radioButton1_CheckedChanged(object sender, EventArgs e)
