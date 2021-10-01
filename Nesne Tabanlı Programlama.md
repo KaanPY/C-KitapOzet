@@ -468,3 +468,5 @@ oluşturulan isim uzayları da kullanılabilir.
 - **Herhangi bir kodla aynı isimde değişken tanımlanamaz. Değişkenlerde _if_, _else_, _random_ gibi programa ait ifadeler isim olarak kullanılmaz.**
 
 - **Zorunluluk yoktur fakat Türkçe karakterlerin (ç, ö, ü, ğ, ş vb. ) kullanılması tavsiye edilmez.**
+
+###### Aşağıdaki soruları Doğru/Yanlış olarak değerlendiriniz. Yanlış olan değişkenin sebebini yazınız.
