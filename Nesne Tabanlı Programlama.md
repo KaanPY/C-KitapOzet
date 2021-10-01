@@ -397,3 +397,23 @@ oluşturulan isim uzayları da kullanılabilir.
 ### Tam Sayı Veri Türleri
   
   ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/135674605-3056026d-f981-468f-b134-193d2f2f879c.PNG)
+
+### Ondalık Sayı Veri Türleri 
+
+ ![image](https://user-images.githubusercontent.com/77877967/135674811-d41e2cf7-725e-4da6-a42f-de3d369aec00.png)
+
+### Metinsel Veri Türleri
+
+  ![image](https://user-images.githubusercontent.com/77877967/135674879-703202f1-9a78-41ef-8994-4a6b99b4a8c0.png)
+   
+### Metinsel Veri Türleri
+
+  ![image](https://user-images.githubusercontent.com/77877967/135675076-874507a2-bcce-4abf-96c0-b1de4115d443.png)
+
+### Mantıksal Veri Türleri
+
+  ![image](https://user-images.githubusercontent.com/77877967/135675125-e7238bcd-fa86-453b-880d-3df6679cd99d.png)
+
+  **Veri türlerinin doğru kullanılması programın verimliliğini arttırır.**
+  
+  *Not: Aynı veri türündeki değişkenler, aynı kod satırında ve aralarına __virgül__ konularak tanımlanabilir.*
