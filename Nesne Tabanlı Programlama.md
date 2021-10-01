@@ -290,11 +290,11 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
   *Sepete Ekle butonuna tıklandığında TextBox nesnesindeki değeri ListBox nesnesine aktaran Görsel
 1.23’teki gibi bir tasarıma sahip programı yazınız.*
   
-  1.**Form:**
+  **_Form:_**
  
   ![Ekran Alıntısı](https://user-images.githubusercontent.com/77877967/134575804-7b520ab5-67b6-459f-804b-418d37510be8.PNG)
 
-  2.**Kod:**
+  **_Kod:_**
  
   ```C#
   private void button1_Click(object sender, EventArgs e)
