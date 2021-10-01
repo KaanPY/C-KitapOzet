@@ -362,3 +362,24 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
     pictureBox4.Visible = radioButton4.Checked; 
   }
   ```
+  
+# İsim Uzayları (Namespace)
+
+  Program yazımı esnasında kullanılan metot, sınıf, değişken, sabit gibi yapıları mantıksal
+olarak kategorize etme sistemidir. İsim uzayları, proje büyüdükçe kod yapısının karmaşıklığını engeller.
+
+  .NET Framework ile gelen standart isim uzayları kullanılabileceği gibi proje yazımı esnasında sonradan
+oluşturulan isim uzayları da kullanılabilir.
+
+  İsim uzayını projeye dâhil etmek için using kodu kullanılır. Varsayılan olarak using System; kod parçacığı projelerde bulunur. Bu kod parçacığındaki using ifadesi “kullanılıyor” anlamına gelir, System ifadesi ise kullanılan isim uzayını temsil eder.
+  
+  Programda kişisel bir isim uzayı tanımlanarak kodların organize olması sağlanabilir. Veri tabanına kayıt yapma işlemlerini içeren bir sınıf örneği;
+  
+  ```C#
+   namespace VeriTabani {     // Kaydet sınıfını kullanabilmek için programa using ifadesi ile isim uzayı eklenmelidir.
+   public class Kaydet
+    {
+      //kodlarınız
+    }
+   }
+  ```
