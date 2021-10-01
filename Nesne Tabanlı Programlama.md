@@ -470,3 +470,5 @@ oluşturulan isim uzayları da kullanılabilir.
 - **Zorunluluk yoktur fakat Türkçe karakterlerin (ç, ö, ü, ğ, ş vb. ) kullanılması tavsiye edilmez.**
 
 ###### Aşağıdaki soruları Doğru/Yanlış olarak değerlendiriniz. Yanlış olan değişkenin sebebini yazınız.
+
+  ![image](https://user-images.githubusercontent.com/77877967/135678677-a7bb1c7f-213a-4562-93e1-a94b864f3b36.png)
