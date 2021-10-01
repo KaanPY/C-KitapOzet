@@ -435,7 +435,7 @@ oluşturulan isim uzayları da kullanılabilir.
   
 # Değişken İsimlendirme Kuralları
 
-1. Değişken isimlerinde boşluk kullanılmaz. Boşluk yerine alt çizgi (_) kullanılabilir.
+- Değişken isimlerinde boşluk kullanılmaz. Boşluk yerine alt çizgi (_) kullanılabilir.
   
   **Örnek:**
    
@@ -443,7 +443,7 @@ oluşturulan isim uzayları da kullanılabilir.
    
   *string* ad_soyad; veya *string* adsoyad; şeklinde kullanım doğrudur.
   
-2. ?, !, :, %, +, -, . gibi özel karakterler kullanılmaz.
+- ?, !, :, %, +, -, . gibi özel karakterler kullanılmaz.
 
   **Örnek:**
   
@@ -451,7 +451,7 @@ oluşturulan isim uzayları da kullanılabilir.
   
   *string soru*; şeklinde kullanım doğrudur.
   
-3. Değişken isimleri sayı ile başlamaz.
+- Değişken isimleri sayı ile başlamaz.
 
   **Örnek:**
   
@@ -459,12 +459,12 @@ oluşturulan isim uzayları da kullanılabilir.
   
   *byte* not1; şeklinde kullanım doğrudur.
   
-4. Değişken isimleri büyük ve küçük harfe duyarlıdır.
+- Değişken isimleri büyük ve küçük harfe duyarlıdır.
 
   **Örnek:**
   
   *ulong* toplamTutar; şeklinde tanımlanan değişken ile *ulong* toplamtutar; veya *ulong* ToplamTUTAR şeklinde tanımlanan değişken aynı değildir.
   
-5. Herhangi bir kodla aynı isimde değişken tanımlanamaz. Değişkenlerde *if*, *else*, *random* gibi programa ait ifadeler isim olarak kullanılmaz.
+- Herhangi bir kodla aynı isimde değişken tanımlanamaz. Değişkenlerde *if*, *else*, *random* gibi programa ait ifadeler isim olarak kullanılmaz.
 
-6. Zorunluluk yoktur fakat Türkçe karakterlerin (ç, ö, ü, ğ, ş vb. ) kullanılması tavsiye edilmez.
+- Zorunluluk yoktur fakat Türkçe karakterlerin (ç, ö, ü, ğ, ş vb. ) kullanılması tavsiye edilmez.
