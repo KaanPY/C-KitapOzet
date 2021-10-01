@@ -418,7 +418,7 @@ oluşturulan isim uzayları da kullanılabilir.
   
   *Not: Aynı veri türündeki değişkenler, aynı kod satırında ve _aralarına virgül_ konularak tanımlanabilir.*
 
-**Örnek:**
+**_Örnek:_**
   
   ```C#
   int sayi,deger,sonuç;
@@ -431,7 +431,7 @@ oluşturulan isim uzayları da kullanılabilir.
   
   ![image](https://user-images.githubusercontent.com/77877967/135675892-6d65fe82-74d4-45c0-8274-f100014fe077.png)
 
-  *NOT: Değişken tanımlanırken de değer atama yapılabilir.*
+  *Not: Değişken tanımlanırken de değer atama yapılabilir.*
   
 # Değişken İsimlendirme Kuralları
 
