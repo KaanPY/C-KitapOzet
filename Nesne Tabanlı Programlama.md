@@ -455,9 +455,9 @@ oluşturulan isim uzayları da kullanılabilir.
 
   **_Örnek:_**
   
-  **byte** 1not; şeklinde kullanım yanlıştır.
+   **byte** 1not; şeklinde kullanım yanlıştır.
   
-  **byte** not1; şeklinde kullanım doğrudur.
+   **byte** not1; şeklinde kullanım doğrudur.
   
 - **Değişken isimleri büyük ve küçük harfe duyarlıdır.**
 
