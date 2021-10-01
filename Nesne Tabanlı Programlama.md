@@ -416,4 +416,55 @@ oluşturulan isim uzayları da kullanılabilir.
 
   **Veri türlerinin doğru kullanılması programın verimliliğini arttırır.**
   
-  *Not: Aynı veri türündeki değişkenler, aynı kod satırında ve aralarına __virgül__ konularak tanımlanabilir.*
+  *Not: Aynı veri türündeki değişkenler, aynı kod satırında ve _aralarına virgül_ konularak tanımlanabilir.*
+
+**Örnek:**
+  
+  ```C#
+  int sayi,deger,sonuç;
+  string isim1,isim2,soyad;
+  ```
+  
+# Değişkene Değer Atama
+
+  **(Değişkenin Adı) = (Değişkenin Değeri);**
+  
+  ![image](https://user-images.githubusercontent.com/77877967/135675892-6d65fe82-74d4-45c0-8274-f100014fe077.png)
+
+  *NOT: Değişken tanımlanırken de değer atama yapılabilir.*
+  
+# Değişken İsimlendirme Kuralları
+
+  1. Değişken isimlerinde boşluk kullanılmaz. Boşluk yerine alt çizgi (_) kullanılabilir.
+  
+  **Örnek:**
+   
+  *string* ad soyad; şeklinde kullanım yanlıştır.
+   
+  *string* ad_soyad; veya *string* adsoyad; şeklinde kullanım doğrudur.
+  
+  2. ?, !, :, %, +, -, . gibi özel karakterler kullanılmaz.
+
+  **Örnek:**
+  
+  *string* soru?; şeklinde kullanım yanlıştır.
+  
+  *string soru*; şeklinde kullanım doğrudur.
+  
+  3. Değişken isimleri sayı ile başlamaz.
+
+  **Örnek:**
+  
+  *byte* 1not; şeklinde kullanım yanlıştır.
+  
+  *byte* not1; şeklinde kullanım doğrudur.
+  
+  4. Değişken isimleri büyük ve küçük harfe duyarlıdır.
+
+  **Örnek:**
+  
+  *ulong* toplamTutar; şeklinde tanımlanan değişken ile *ulong* toplamtutar; veya *ulong* ToplamTUTAR şeklinde tanımlanan değişken aynı değildir.
+  
+  5. Herhangi bir kodla aynı isimde değişken tanımlanamaz. Değişkenlerde *if*, *else*, *random* gibi programa ait ifadeler isim olarak kullanılmaz.
+
+  6. Zorunluluk yoktur fakat Türkçe karakterlerin (ç, ö, ü, ğ, ş vb. ) kullanılması tavsiye edilmez.
