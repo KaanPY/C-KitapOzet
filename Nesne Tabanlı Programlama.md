@@ -435,36 +435,36 @@ oluşturulan isim uzayları da kullanılabilir.
   
 # Değişken İsimlendirme Kuralları
 
-- Değişken isimlerinde boşluk kullanılmaz. Boşluk yerine alt çizgi (_) kullanılabilir.
+- **Değişken isimlerinde boşluk kullanılmaz. Boşluk yerine alt çizgi (_) kullanılabilir.**
   
-  **Örnek:**
+  **_Örnek:_**
    
-  *string* ad soyad; şeklinde kullanım yanlıştır.
+  **string** ad soyad; şeklinde kullanım yanlıştır.
    
-  *string* ad_soyad; veya *string* adsoyad; şeklinde kullanım doğrudur.
+  **string** ad_soyad; veya **string** adsoyad; şeklinde kullanım doğrudur.
   
-- ?, !, :, %, +, -, . gibi özel karakterler kullanılmaz.
+- **?, !, :, %, +, -, . gibi özel karakterler kullanılmaz.**
 
-  **Örnek:**
+  **_Örnek:_**
+ 
+  **string** soru?; şeklinde kullanım yanlıştır.
   
-  *string* soru?; şeklinde kullanım yanlıştır.
+  **string** soru; şeklinde kullanım doğrudur.
   
-  *string soru*; şeklinde kullanım doğrudur.
-  
-- Değişken isimleri sayı ile başlamaz.
+- **Değişken isimleri sayı ile başlamaz.**
 
-  **Örnek:**
+  **_Örnek:_**
   
-  *byte* 1not; şeklinde kullanım yanlıştır.
+  **byte** 1not; şeklinde kullanım yanlıştır.
   
-  *byte* not1; şeklinde kullanım doğrudur.
+  **byte** not1; şeklinde kullanım doğrudur.
   
-- Değişken isimleri büyük ve küçük harfe duyarlıdır.
+- **Değişken isimleri büyük ve küçük harfe duyarlıdır.**
 
-  **Örnek:**
+  **_Örnek:_**
   
-  *ulong* toplamTutar; şeklinde tanımlanan değişken ile *ulong* toplamtutar; veya *ulong* ToplamTUTAR şeklinde tanımlanan değişken aynı değildir.
+  **ulong** toplamTutar; şeklinde tanımlanan değişken ile *ulong* toplamtutar; veya **ulong** ToplamTUTAR şeklinde tanımlanan değişken aynı değildir.
   
-- Herhangi bir kodla aynı isimde değişken tanımlanamaz. Değişkenlerde *if*, *else*, *random* gibi programa ait ifadeler isim olarak kullanılmaz.
+- **Herhangi bir kodla aynı isimde değişken tanımlanamaz. Değişkenlerde _if_, _else_, _random_ gibi programa ait ifadeler isim olarak kullanılmaz.**
 
-- Zorunluluk yoktur fakat Türkçe karakterlerin (ç, ö, ü, ğ, ş vb. ) kullanılması tavsiye edilmez.
+- **Zorunluluk yoktur fakat Türkçe karakterlerin (ç, ö, ü, ğ, ş vb. ) kullanılması tavsiye edilmez.**
