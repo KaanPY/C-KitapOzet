@@ -258,11 +258,11 @@ sorunsuz bir şekilde çalışır. Bu işlemlerin yapılmasını .NET Framework 
 
   *Butona basıldığında Text alanına yazı yazan program.*
   
-  1.**Form:**
+  **_Form:_**
  
   ![a](https://user-images.githubusercontent.com/77877967/134396042-14f2b6c1-a5fc-45ee-843c-c0106150ec34.jpg)
 
-  2.**Kod:**
+  **_Kod:_**
  
   ```C#
   private void button1_Click(object sender, EventArgs e)
