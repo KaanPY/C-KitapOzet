@@ -405,10 +405,6 @@ oluşturulan isim uzayları da kullanılabilir.
 ### Metinsel Veri Türleri
 
   ![image](https://user-images.githubusercontent.com/77877967/135674879-703202f1-9a78-41ef-8994-4a6b99b4a8c0.png)
-   
-### Metinsel Veri Türleri
-
-  ![image](https://user-images.githubusercontent.com/77877967/135675076-874507a2-bcce-4abf-96c0-b1de4115d443.png)
 
 ### Mantıksal Veri Türleri
 
