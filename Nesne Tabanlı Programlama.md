@@ -468,3 +468,32 @@ oluşturulan isim uzayları da kullanılabilir.
 ###### Aşağıdaki soruları Doğru/Yanlış olarak değerlendiriniz. Yanlış olan değişkenin sebebini yazınız.
 
   ![image](https://user-images.githubusercontent.com/77877967/135678677-a7bb1c7f-213a-4562-93e1-a94b864f3b36.png)
+
+# Değişken Veri Türü Dönüştürme (Convert) İşlemleri
+
+  Değişkenlerin veri türlerini bazen değiştirmek gerekebilir. Sayısal bir ifade, bir nesnenin Text özelliğine
+aktarılmak istendiğinde program hata verecektir. İçeriği tamamen sayı olsa da metinsel bir ifadeyi
+sayısal veri türüne sahip bir değişkene aktarırken program yine hata verecektir. Bu tip durumlarda
+değişkenlerin veri türlerini dönüştürmek gerekir.
+
+  *Tür dönüşümünü sağlayacak hazır metotlar şunlardır:*
+  
+  **ToString()** >>>> Her türden değişkeni string türüne dönüştürür. ToString(), en sık kullanılan dönüştürme metodudur.
+  
+  **Convert**.ToByte(metin)     *>>>>>* Byte’a çevirir.
+  
+  **Convert**.ToInt16(metin)    *>>>>>* Short’a çevirir.
+  
+  **Convert**.ToInt32(metin)    *>>>>>* Int’e çevirir.
+  
+  **Convert**.ToInt64(metin)    *>>>>>* Long’a çevirir.
+  
+  **Convert**.ToSingle(metin)   *>>>>>* Float’a çevirir.
+  
+  **Convert**.ToDouble(metin)   *>>>>>* Double’a çevirir.
+  
+  **Convert**.ToDecimal(metin)  *>>>>>* Decimal’a çevirir.
+  
+  **Convert**.ToChar(metin)     *>>>>>* Char’a çevirir.
+  
+  **Convert**.ToBoolean(metin)  *>>>>>* Bool’a çevirir.
