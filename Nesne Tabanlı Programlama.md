@@ -480,20 +480,20 @@ değişkenlerin veri türlerini dönüştürmek gerekir.
   
   **ToString()** >>>> Her türden değişkeni string türüne dönüştürür. ToString(), en sık kullanılan dönüştürme metodudur.
   
-  > **Convert**.ToByte(metin)     *>>>>>* Byte’a çevirir.
+    > **Convert**.ToByte(metin)     *>>>>>* Byte’a çevirir.
   
-  > **Convert**.ToInt16(metin)    *>>>>>* Short’a çevirir.
+    > **Convert**.ToInt16(metin)    *>>>>>* Short’a çevirir.
   
-  > **Convert**.ToInt32(metin)    *>>>>>* Int’e çevirir.
+    > **Convert**.ToInt32(metin)    *>>>>>* Int’e çevirir.
   
-  > **Convert**.ToInt64(metin)    *>>>>>* Long’a çevirir.
+    > **Convert**.ToInt64(metin)    *>>>>>* Long’a çevirir.
   
-  > **Convert**.ToSingle(metin)   *>>>>>* Float’a çevirir.
+    > **Convert**.ToSingle(metin)   *>>>>>* Float’a çevirir.
   
-  > **Convert**.ToDouble(metin)   *>>>>>* Double’a çevirir.
+    > **Convert**.ToDouble(metin)   *>>>>>* Double’a çevirir.
   
-  > **Convert**.ToDecimal(metin)  *>>>>>* Decimal’a çevirir.
+    > **Convert**.ToDecimal(metin)  *>>>>>* Decimal’a çevirir.
   
-  > **Convert**.ToChar(metin)     *>>>>>* Char’a çevirir.
+    > **Convert**.ToChar(metin)     *>>>>>* Char’a çevirir.
   
-  > **Convert**.ToBoolean(metin)  *>>>>>* Bool’a çevirir.
+    > **Convert**.ToBoolean(metin)  *>>>>>* Bool’a çevirir.
