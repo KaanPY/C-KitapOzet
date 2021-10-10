@@ -513,3 +513,24 @@ değişkenlerin veri türlerini dönüştürmek gerekir.
   string deger;
   deger=sayi1.ToString(); //Program artık hata vermeyecektir çünkü veri türleri uyumludur.
   ```
+###### UYGULAMA-8
+
+  *Şekildeki gibi girilen iki sayıyı hesaplayan programı yazınız*
+  
+  **_Form:_**
+  
+  ![image](https://user-images.githubusercontent.com/77877967/136709142-22d32e7a-2039-4107-8e0f-b6bc2459b31e.png)
+
+  **_Kod:_**
+  
+  ```C#
+  private void button1_Click(object sender, EventArgs e) {
+    int number, number2, total;
+    
+    number = Convert.ToInt16(textBox1.Text);
+    number2 = Convert.ToInt16(textBox2.Text);
+    total = number + number2;
+    
+    textBox3.Text = total.ToString(); 
+  }
+  ```
