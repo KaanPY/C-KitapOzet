@@ -534,3 +534,47 @@ değişkenlerin veri türlerini dönüştürmek gerekir.
     textBox3.Text = total.ToString(); 
   }
   ```
+
+###### UYGULAMA-9
+
+  *Not:  Programlama dillerinde toplama operatörü sadece sayıları toplamak için kullanılmaz. Metinsel veri türüne sahip değişkenlerin arasına **artı (+)** operatörü konularak string değerlerini birleştirmek için de toplama operatörü kullanılır.*
+  
+  *Form üzerine iki button, iki textBox koyarak aşağıdaki örnek kodları deneyiniz.*
+  
+  **_Kod-1:_**
+  
+  ```C#
+  string ad, soyad,topla;
+  ad = "Kaan";
+  soyad = "Tek";
+  topla = ad +" "+ soyad;
+  MessageBox.Show(topla);
+  ```
+  
+  **_Kod-2:_**
+  
+  ```C#
+  textBox1.Text="30";
+  textBox2.Text="50";
+  textBox3.Text= textBox1.Text + textBox2.Text;
+  ```
+  
+###### UYGULAMA-10
+  
+  *Şekildeki gibi tasarlanan forma girilen sayının karesini alıp mesaj verdiren programı yapınız.*
+  
+  **__Form:__**
+  
+  ![image](https://user-images.githubusercontent.com/77877967/136709474-dcc17735-4dce-4d46-a537-15a8025a1215.png)
+
+  **__Kod:__**
+  
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    int number = Conver.ToInt32(textBox1.Text);
+    int kare = number * number;
+    
+    MessageBox.Show(number.ToString() + " Sayısının karesi = " + kare.ToString());
+  }
+  ```
