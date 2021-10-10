@@ -497,3 +497,19 @@ değişkenlerin veri türlerini dönüştürmek gerekir.
    > **Convert**.ToChar(metin)     *>>>>>* Char’a çevirir.
   
    > **Convert**.ToBoolean(metin)  *>>>>>* Bool’a çevirir.
+
+  **__Örnek:__**
+  
+  ```C#
+  int sayi1=100;
+  string deger;
+  deger=sayi1; //Program bu noktada convert type ‘int’ to ‘string’ şeklinde hata verecektir.
+  ```
+  
+  **__Örnek:__**
+  
+  ```C#
+  int sayi1=100;
+  string deger;
+  deger=sayi1.ToString(); //Program artık hata vermeyecektir çünkü veri türleri uyumludur.
+  ```
