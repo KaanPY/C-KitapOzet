@@ -826,15 +826,15 @@ başvurusunda bulunabilirsiniz.” şeklinde mesaj veren programı yazınız.*
     
     if (sayi1 > sayi2)
     {
-    MessageBox.Show(“1.sayı 2.sayıdan büyüktür.”);
+    MessageBox.Show("1.sayı 2.sayıdan büyüktür.");
     }
     if (sayi1 == sayi2)
     {
-    MessageBox.Show(“Sayılar birbirine eşittir.”);
+    MessageBox.Show("Sayılar birbirine eşittir.");
     }
     if (sayi1 < sayi2)
     {
-    MessageBox.Show(“2.sayı 1.sayıdan büyüktür.”);
+    MessageBox.Show("2.sayı 1.sayıdan büyüktür.");
     } 
   }
   ```
