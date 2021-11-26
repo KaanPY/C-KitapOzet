@@ -632,8 +632,137 @@ ise sırasıyla soldan sağa doğru işlem yapılır.
   • (5*8/4)+3-5*2    ..........
   ```
 
+###### UYGULAMA - 11
 
+  *Şekildeki gibi tasarlanan forma girilen ürün fiyatını indirim butonlarına basarak indirimli fiyatı hesaplayan programı yazınız.*
+  
+  **__Form:__**
+  
+  ![image](https://user-images.githubusercontent.com/77877967/143623129-c25fe899-01fc-4365-aefd-a0e9ae6e0e58.png)
 
+  **__Kod:__**
+  
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    int etiketFiyati;
+    double indirimliFiyat;
+    
+    etiketFiyati = Convert.ToInt32(textBox1.Text);
+    indirimliFiyat = etiketFiyati-etiketFiyati * 0.10; //Yüzde 10 indirim
+    
+    label3.Text = indirimliFiyat.ToString();
+  }
+  
+  private void button2_Click(object sender, EventArgs e)
+  {
+    int etiketFiyati;
+    double indirimliFiyat;
+    
+    etiketFiyati = Convert.ToInt32(textBox1.Text);
+    indirimliFiyat = etiketFiyati-etiketFiyati * 0.25; //Yüzde 25 indirim
+    
+    label3.Text = indirimliFiyat.ToString();
+  }
+  
+  private void button3_Click(object sender, EventArgs e)
+  {
+    int etiketFiyati;
+    double indirimliFiyat;
+    
+    etiketFiyati = Convert.ToInt32(textBox1.Text);
+    indirimliFiyat = etiketFiyati-etiketFiyati * 0.50; //Yüzde 50 indirim
+    
+    label3.Text = indirimliFiyat.ToString();
+  }
+  
+  private void button4_Click(object sender, EventArgs e)
+  {
+    int etiketFiyati;
+    double indirimliFiyat;
+    
+    etiketFiyati = Convert.ToInt32(textBox1.Text);
+    indirimliFiyat = etiketFiyati-etiketFiyati * 0.75; //Yüzde 75 indirim
+    
+    label3.Text = indirimliFiyat.ToString();
+  }
+  ```
+  
+###### UYGULAMA - 12
+
+  *Şekildeki gibi tasarlanan forma girilen doğru ve yanlış sayılarına göre net hesaplayan programı yazınız*
+  
+  **__Form:__**
+  
+  ![image](https://user-images.githubusercontent.com/77877967/143623431-fe9f4c38-e4cc-4239-b10f-0ec26e99077a.png)
+
+  **__Kod:__**
+  
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    double turkceDogru, matDogru;
+    double turkceYanlis, matYanlis;
+    double turkceNet, matNet;
+    
+    turkceDogru = Convert.ToDouble(textBox1.Text);
+    turkceYanlis = Convert.ToDouble(textBox2.Text);
+    
+    turkceNet = (turkceDogru - (turkceYanlis / 4));
+    
+    textBox3.Text = turkceNet.ToString();
+    
+    matDogru = Convert.ToDouble(textBox4.Text);
+    matYanlis = Convert.ToDouble(textBox5.Text);
+    
+    matNet = (matDogru - (matYanlis / 4));
+    
+    textBox6.Text = matNet.ToString();
+  }
+  ```
+
+###### UYGULAMA - 13
+
+  - *TextBox nesnesine girilen sayının %18’ini bulup mesaj verdiren programı yazınız.*
+  
+  **__Form:__**
+  
+  ![c-faktöriyel](https://user-images.githubusercontent.com/77877967/143624051-d0ed718e-d6fb-4c31-94b1-39fc96c47201.png)
+
+  **__Kod:__**
+  
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    int sayi = Convert.ToInt32(textBox1.Text);
+    double kdv = sayi * 0.18;
+    
+    MessageBox.Show(sayi.ToString() + " Sayısının %18 =" + kdv.ToString());
+  }
+  ```
+  
+  - *Yarıçapı girilen dairenin alanını ve çevresini hesaplayan programı yazınız.*
+
+  **__Form:__**
+  
+  ![c-çevre-alan-hesaplama](https://user-images.githubusercontent.com/77877967/143624144-6b7549e3-d868-4e5a-a6db-5282a700b782.png)
+
+  **__Kod:__**
+  
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    int r = Convert.ToInt32(textBox1.Text);
+    double alan, cevre;
+    double pi = 3.14;
+    
+    alan = pi * r * r;
+    cevre = 2 * pi * r;
+    
+    textBox2.Text = alan.ToString();
+    textBox3.Text = cevre.ToString();
+  }
+  ```
 
 
 
