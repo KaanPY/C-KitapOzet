@@ -764,6 +764,80 @@ ise sırasıyla soldan sağa doğru işlem yapılır.
   }
   ```
 
+# Karar Yapıları
+
+  Karar ifadeleri; tüm programlama dillerinde bulunan, koşula veya koşullara bağlı bir şekilde programın nasıl ilerleyeceğini belirleyen yapılardır.
+  
+# Karşılaştırma Yapıları
+
+  Karar ifadelerinde iki değeri birbiriyle karşılaştırmak için kullanılan operatörlerdir. Sonuçları bool veri (True / False) tipindedir.
+  
+  ![image](https://user-images.githubusercontent.com/77877967/143624813-cb65af61-7531-4e32-84ca-4f639f295ada.png)
+  
+# İF Yapısı
+
+  if, kelime olarak eğer anlamına gelmektedir. Sadece şart sağlandığında çalışması istenen kodlar için kullanılır.
+
+  ```C#
+  if(şart ifadesi)
+  {
+    // Şart -> True ise çalışacak kod blok.
+  }
+  ```
+  
+###### UYGULAMA-14
+
+  *Form üzerine Button ve TextBox nesnesi ekleyiniz. Button nesnesi tıklandığında TextBox nesnesine girilen sayı 17’den büyük ise “Ehliyet
+başvurusunda bulunabilirsiniz.” şeklinde mesaj veren programı yazınız.*
+  
+  **__Kod:__**
+  
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    byte yas;
+    
+    yas = Convert.ToByte(textBox1.Text);
+    
+    if(yas > 17)
+    {
+    MessageBox.Show("Ehliyet başvurusunda bulunabilirsiniz.");
+    }
+  }
+  ```
+  
+###### UYGULAMA-15
+
+  *Girilen iki sayıyı büyüklük, küçüklük ve eşitlik bakımından karşılaştıran ve sonucu ekrana mesaj olarak veren programı yazınız.*
+  
+  **__Form:__**
+  
+  ![image](https://user-images.githubusercontent.com/77877967/143625277-6db2704b-4031-4e04-9801-dca7e6dac7ca.png)
+  
+  **__Kod:__**
+  
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    byte sayi1, sayi2;
+    
+    sayi1 = Convert.ToByte(textBox1.Text);
+    sayi2 = Convert.ToByte(textBox2.Text);
+    
+    if (sayi1 > sayi2)
+    {
+    MessageBox.Show(“1.sayı 2.sayıdan büyüktür.”);
+    }
+    if (sayi1 == sayi2)
+    {
+    MessageBox.Show(“Sayılar birbirine eşittir.”);
+    }
+    if (sayi1 < sayi2)
+    {
+    MessageBox.Show(“2.sayı 1.sayıdan büyüktür.”);
+    } 
+  }
+  ```
 
 
 
