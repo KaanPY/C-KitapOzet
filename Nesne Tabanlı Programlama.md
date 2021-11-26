@@ -845,10 +845,6 @@ başvurusunda bulunabilirsiniz.” şeklinde mesaj veren programı yazınız.*
   
   *Mod İşlemi: Bir sayının 2'ye bölümünden kalan sayı 0 ise bölünen sayı çifttir, kalan sayı 1 ise bölünen sayı tektir.*
   
-  **__Form:__**
-  
-  ![image](https://user-images.githubusercontent.com/77877967/143625277-6db2704b-4031-4e04-9801-dca7e6dac7ca.png)
-  
   **__Kod:__**
   
   ```C#
