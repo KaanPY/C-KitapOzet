@@ -578,3 +578,78 @@ değişkenlerin veri türlerini dönüştürmek gerekir.
     MessageBox.Show(number.ToString() + " Sayısının karesi = " + kare.ToString());
   }
   ```
+  
+# İşlem Önceliği
+
+  Matematiksel bir ifade yazılan kod satırında birden fazla aritmetiksel operatör kullanılabilir.
+  
+  Kodlar çalıştırılırken öncelikle varsa parantez içindeki işlemler, daha sonra parantez dışındaki işlemler
+yapılır. Çarpma, bölme ve mod alma işlemleri kendi aralarında, toplama ve çıkarma işlemleri de kendi
+aralarında aynı önceliğe sahiptir. Kendi aralarında aynı önceliğe sahip operatörlerin olduğu ifadelerde
+ise sırasıyla soldan sağa doğru işlem yapılır.
+
+  **__Örnek-1:__**
+  
+  *4*3+15/3-1 işlemini yapınız.*
+  
+  **__Çözüm:__**
+  
+  ```C#
+  =12+5-1 -->Önce çarpma sonra bölme işlemi yapılır.
+  =17-1 -->Toplama işlemi ve sonrasında
+  çıkarma işlemi yapılır.
+  =16
+  ```
+  
+  **__Örnek-2:__**
+  
+  *(3+4-2)*(10/5*2)-4 işlemini yapınız.*
+  
+  **__Çözüm:__**
+  
+  ```C#
+  =5*4-4 -->Önce parantez içindeki işlemler yapılır.
+  =20-4 -->Çarpma işlemi toplama işleminden öncelikli
+  olarak yapılır.
+  =16
+  ```
+  
+####### Sıra Sizde
+  
+  **Soru**           **Cevap**
+  
+  ```C#
+  • 7*5-3            ..........
+  
+  • 20+30-4*10       ..........
+  
+  • 9/3+2*2-5+1      ..........
+  
+  • (5*4)-(3+9)      ..........
+  
+  • (5*8/4)+3-5*2    ..........
+  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
