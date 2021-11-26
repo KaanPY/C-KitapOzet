@@ -839,22 +839,49 @@ başvurusunda bulunabilirsiniz.” şeklinde mesaj veren programı yazınız.*
   }
   ```
 
+###### UYFULAMA-16
 
+  *Girilen sayının tek mi, çift mi olduğunu bulan programı yazınız.*
+  
+  *Mod İşlemi: Bir sayının 2'ye bölümünden kalan sayı 0 ise bölünen sayı çifttir, kalan sayı 1 ise bölünen sayı tektir.*
+  
+  **__Form:__**
+  
+  ![image](https://user-images.githubusercontent.com/77877967/143625277-6db2704b-4031-4e04-9801-dca7e6dac7ca.png)
+  
+  **__Kod:__**
+  
+  ```C#
+  private void button1_Click(object sender, EventArgs e)
+  {
+    int sayi;
+    
+    sayi =Convert.ToInt32(textBox1.Text);
+    
+    if(sayi % 2 == 0)
+    {
+    MessageBox.Show("Bu bir çift sayıdır.");
+     }
+    if(sayi % 2 ==1)
+    {
+     MessageBox.Show("Bu bir tek sayıdır.");
+    }
+  }
+  ```
 
+# İF - ELSE Yapısı
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  Else: Kelime olarak değilse, aksi durumda anlamına gelmektedir.
+  
+  ```C#
+  if(şart ifadesi) 
+  {
+   // Şart ifadesi sağlanıyorsa çalışacak kodlarınız 
+  }
+  else
+  {
+   // Şart ifadesi sağlanmadığında çalışacak kodlarınız 
+  }
+  ```
+  
+  Şart ifadesi: Karşılaştırma operatörleri ile yapılan işlemlerdir. Sonucunda true ya da false oluşur.
