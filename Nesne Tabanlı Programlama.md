@@ -590,7 +590,7 @@ ise sırasıyla soldan sağa doğru işlem yapılır.
 
   **__Örnek-1:__**
   
-  4*3+15/3-1 işlemini yapınız.
+ * 4.3+15/3-1 işlemini yapınız.*
   
   **__Çözüm:__**
   
@@ -603,7 +603,7 @@ ise sırasıyla soldan sağa doğru işlem yapılır.
   
   **__Örnek-2:__**
   
-  (3+4-2)*(10/5*2)-4 işlemini yapınız.
+  *(3+4-2).(10/5*2)-4 işlemini yapınız.*
   
   **__Çözüm:__**
   
@@ -614,7 +614,9 @@ ise sırasıyla soldan sağa doğru işlem yapılır.
   =16
   ```
   
-####### Sıra Sizde
+  *Not: Noktalar (.) çarpmadır.*
+  
+###### Sıra Sizde
   
   **Soru**      -     **Cevap**
   
