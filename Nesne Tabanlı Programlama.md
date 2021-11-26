@@ -616,9 +616,9 @@ ise sırasıyla soldan sağa doğru işlem yapılır.
   
   *Not: Noktalar (.) çarpmadır.*
   
-###### Sıra Sizde
+###### SIRA SİZDE
   
-  **Soru**      -     **Cevap**
+  *Soru      -     Cevap*
   
   ```C#
   • 7*5-3            ..........
